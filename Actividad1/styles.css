@@ -1,0 +1,28 @@
+#main_header #logo_u {
+  height: 60px;
+}
+
+#main_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+#main_header .header_button {
+  justify-content: space-evenly;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.sect {
+  flex: 1;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
